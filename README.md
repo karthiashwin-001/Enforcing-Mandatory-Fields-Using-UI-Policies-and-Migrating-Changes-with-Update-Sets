@@ -1,8 +1,10 @@
-# Enforcing Mandatory Fields Using UI Policies and Migrating Changes with Update Sets
+# 🚀 Enforcing Mandatory Fields Using UI Policies and Migrating Changes with Update Sets
 
-## Project Overview
+---
 
-This project demonstrates how to enforce business rules dynamically in ServiceNow using **UI Policies** and how to migrate configuration changes between ServiceNow instances using **Update Sets**.
+## 📌 Project Overview
+
+This project demonstrates how to enforce business rules dynamically in **ServiceNow** using **UI Policies** and how to migrate configuration changes between ServiceNow instances using **Update Sets**.
 
 The main objective of this project is to ensure that the **Priority field becomes mandatory when the Incident State is changed to "In Progress"**. This helps maintain data completeness and improves the efficiency of incident management.
 
@@ -10,7 +12,7 @@ The project also demonstrates how **Update Sets can be used to capture, export, 
 
 ---
 
-## Project Description
+## 📝 Project Description
 
 In many ServiceNow implementations, incidents may move through different workflow states without important information being filled in. This can lead to incomplete records and inefficient incident management.
 
@@ -20,7 +22,7 @@ All configuration changes are captured using an **Update Set**, which allows the
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
 | Technology | Purpose |
 |------------|--------|
@@ -32,65 +34,69 @@ All configuration changes are captured using an **Update Set**, which allows the
 
 ---
 
-## Project Milestones
+## 📊 Project Milestones
 
 | Milestone | Task | Status |
 |-----------|------|--------|
-| Milestone 1 | Create Update Set | Completed |
-| Milestone 2 | Create UI Policy | Completed |
-| Milestone 2 | Verify Update Set | Completed |
-| Milestone 2 | Export Update Set | Completed |
-| Milestone 2 | Import Update Set | Completed |
-| Milestone 3 | Test Incident Module | Completed |
+| Milestone 1 | Create Update Set | ✅ Completed |
+| Milestone 2 | Create UI Policy | ✅ Completed |
+| Milestone 2 | Verify Update Set | ✅ Completed |
+| Milestone 2 | Export Update Set | ✅ Completed |
+| Milestone 2 | Import Update Set | ✅ Completed |
+| Milestone 3 | Test Incident Module | ✅ Completed |
 
 ---
 
-## Project Workflow
+## ⚙ Project Workflow
 
-1. Create a **Local Update Set** in ServiceNow.
-2. Set the Update Set as **Current** to track changes.
-3. Create a **UI Policy** on the Incident table.
-4. Add a **UI Policy Action** to make the Priority field mandatory.
-5. Verify that the configuration is captured in the Update Set.
-6. Export the Update Set as an **XML file**.
-7. Import the Update Set into another ServiceNow instance.
-8. Preview and commit the Update Set.
-9. Test the configuration in the **Incident module**.
-
----
-
-## Expected Result
-
-When the **State of an Incident is changed to "In Progress"**, the **Priority field automatically becomes mandatory**. The incident cannot be saved without selecting a priority value, ensuring proper data entry and improved workflow management.
+1️⃣ Create a **Local Update Set** in ServiceNow.  
+2️⃣ Set the Update Set as **Current** to track changes.  
+3️⃣ Create a **UI Policy** on the Incident table.  
+4️⃣ Add a **UI Policy Action** to make the Priority field mandatory.  
+5️⃣ Verify that the configuration is captured in the Update Set.  
+6️⃣ Export the Update Set as an **XML file**.  
+7️⃣ Import the Update Set into another ServiceNow instance.  
+8️⃣ Preview and commit the Update Set.  
+9️⃣ Test the configuration in the **Incident module**.
 
 ---
 
-## Project Demonstration Video
+## 🎯 Expected Result
 
-🎥 **Demo Video**  
-▶ [Click here to watch the video](https://drive.google.com/file/d/1yd527Cl7qVqA1BhuOrvi_n7oMrtWiUzG/view?usp=drive_link)
+When the **State of an Incident is changed to "In Progress"**, the **Priority field automatically becomes mandatory**.
 
----
-
-## Project Screenshots
-
-📸 **Screenshots Folder**  
-▶ [Click here to view screenshots](https://drive.google.com/drive/folders/1HJsYnt8ZFqSpy2rfYk-RTSFT1_gZ7lVb?usp=drive_link)
+The incident cannot be saved without selecting a priority value, ensuring **proper data entry and improved workflow management**.
 
 ---
 
-## Team Members
+## 🎥 Project Demonstration Video
+
+▶ **Watch the Demo Video**
+
+🔗 [Click here to watch the video](https://drive.google.com/file/d/1yd527Cl7qVqA1BhuOrvi_n7oMrtWiUzG/view?usp=drive_link)
+
+---
+
+## 📸 Project Screenshots
+
+📂 **View All Screenshots**
+
+🔗 [Click here to see screenshots](https://drive.google.com/drive/folders/1HJsYnt8ZFqSpy2rfYk-RTSFT1_gZ7lVb?usp=drive_link)
+
+---
+
+## 👥 Team Members
 
 | Name | Role |
 |-----|------|
-| Karthikeyan M | Team Leader |
-| Balamurugan KS | Team Member |
-| Dhanush P | Team Member |
-| Mohammed Ismail S | Team Member |
+| 👨‍💼 **Karthikeyan M** | Team Leader |
+| 👨‍💻 **Balamurugan KS** | Team Member |
+| 👨‍💻 **Dhanush P** | Team Member |
+| 👨‍💻 **Mohammed Ismail S** | Team Member |
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
 ```
 ServiceNow-UI-Policy-Project
@@ -104,14 +110,16 @@ ServiceNow-UI-Policy-Project
 
 ---
 
-## Conclusion
+## 📌 Conclusion
 
-This project successfully demonstrates how **UI Policies can be used to enforce business rules dynamically in ServiceNow without writing scripts**. By making the **Priority field mandatory when the Incident State changes to "In Progress"**, the system ensures that important information is captured before progressing further in the workflow.
+This project successfully demonstrates how **UI Policies can be used to enforce business rules dynamically in ServiceNow without writing scripts**.
 
-The use of **Update Sets** allows administrators to efficiently track, export, and migrate configuration changes between ServiceNow instances, making deployment and configuration management more efficient.
+By making the **Priority field mandatory when the Incident State changes to "In Progress"**, the system ensures that important information is captured before progressing further in the workflow.
+
+The use of **Update Sets** allows administrators to efficiently track, export, and migrate configuration changes between ServiceNow instances, making **deployment and configuration management more efficient**.
 
 ---
 
-## License
+## 📜 License
 
 This project is created for **educational purposes**.
