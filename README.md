@@ -6,4 +6,4 @@ In this project, we address this issue by implementing a UI Policy that makes th
 ▶[click here to see screenshots](https://drive.google.com/drive/folders/1HJsYnt8ZFqSpy2rfYk-RTSFT1_gZ7lVb?usp=drive_link)
 
 ### 🎥Demo video
-▶[click here to Watch the video](https://drive.google.com/drive/folders/1aOUkIphqjKGUZEu7pTzbxYTBgpTn2X47?usp=drive_link)
+▶[click here to Watch the video](https://drive.google.com/file/d/1yd527Cl7qVqA1BhuOrvi_n7oMrtWiUzG/view?usp=drive_link)
